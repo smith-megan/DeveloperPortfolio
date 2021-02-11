@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap");
+
+hr {
+  border: 1px solid rgba(142, 143, 145, 0.507);
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  background: #8fb3e5;
+  border: none;
+  width: 15%;
+  justify-self: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+a:hover {
+  background-color: #454547;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: none;
+  color: #555557;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Header {
+  background: url("./Assets/hero-2.jpg") no-repeat center / cover;
+  background-color: #706762;
+  height: 70vh;
+  color: white;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 35% 9% 16% 10% 20%;
+  grid-template-areas:
+    "."
+    "a"
+    "b"
+    "c"
+    ".";
+}
+
+.title {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.name-title {
+  font-size: 62px;
+  color: #454547;
+  letter-spacing: 8px;
+  justify-self: right;
+  font-weight: 300;
+}
+.name-title-last {
+  font-size: 62px;
+  color: #555557;
+  letter-spacing: 9px;
+  justify-self: left;
+  font-weight: 600;
+}
+
+.name-description {
+  grid-area: b;
+  color: #555557;
+  font-size: 28px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+.Main-Button {
+  grid-area: c;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  background: #8fb3e5;
+  border: none;
+  width: 15%;
+  justify-self: center;
+  cursor: pointer;
+  align-self: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: 1s;
+}
+
+.Main-Button:hover {
+  background: #454547;
+}
+
+#Explanation {
+  background-color: #eef1f5;
+  display: grid;
+  padding: 150px;
+  font-size: 22px;
+}
+
+.Line {
+  margin-top: -25px;
+  width: 25%;
+  justify-self: center;
+}
+
+.Paragraph-block {
+  justify-self: center;
+  width: 40%;
+}
+
+#Projects {
+  display: grid;
+  grid-template-columns: 5% 20% 50% 20% 5%;
+  grid-template-rows: 1% 9% 18% 18% 18% 18%;
+  grid-template-areas:
+    ". . . . ."
+    ". exp exp exp ."
+    ". . one . ."
+    ". . two . ."
+    ". . three . ."
+    ". . four . .";
+  row-gap: 3%;
+  width: 100%;
+  height: 2200px;
+  background-color: #262e2b;
+  justify-content: center;
+}
+
+.Project-Explanation {
+  font-size: 22px;
+  grid-area: exp;
+  color: white;
+  justify-self: center;
+}
+
+.Project-Line {
+  width: 100%;
+}
+
+.Project-Text {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  width: 80%;
+}
+
+.Live-Demo {
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+.Github-Repo {
+  padding: 10px;
+  margin: 10px;
+  width: 60%;
+}
+
+.Project-1-Group {
+  grid-area: one;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #eef1f5;
+}
+
+.Project-1 {
+  height: 100%;
+  width: 100%;
+  background: url("./Assets/ArtAPI2.gif") no-repeat center / cover;
+  justify-self: center;
+  transition: 1s;
+}
+
+.Project-1:hover {
+  background: url("./Assets/ArtAPI.gif") no-repeat center / cover;
+  justify-self: center;
+}
+
+.Project-2-Group {
+  grid-area: two;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #eef1f5;
+}
+
+.Project-2 {
+  height: 100%;
+  width: 100%;
+  background: url("./Assets/ShapeSort2.gif") no-repeat center / cover;
+  transition: 1s;
+}
+
+.Project-2:hover {
+  background: url("./Assets/ShapeSort.gif") no-repeat center / cover;
+}
+
+.Project-3-Group {
+  grid-area: three;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #eef1f5;
+}
+
+.Project-3 {
+  height: 100%;
+  width: 100%;
+  background: url("./Assets/moneystacks2.gif") no-repeat center/cover;
+  transition: 1s;
+}
+
+.Project-3:hover {
+  background: url("./Assets/moneystacks.gif") no-repeat center / cover;
+}
+
+.Project-4-Group {
+  grid-area: four;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #eef1f5;
+}
+
+.Project-4 {
+  height: 100%;
+  width: 100%;
+  background: url("./Assets/Alphabet2.gif") no-repeat center / cover;
+  transition: 1s;
+}
+
+.Project-4:hover {
+  background: url("./Assets/Alphabet.gif") no-repeat center / cover;
+}
