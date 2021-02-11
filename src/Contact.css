@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap");
+
+#Contact {
+  background-color: #eef1f5;
+  display: grid;
+  grid-template-columns: 0.8fr;
+  font-size: 22px;
+  width: 100%;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.form-intro {
+  width: 100%;
+  line-height: 1.5rem;
+  justify-self: center;
+}
+
+.form-div {
+  margin-top: 4%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  align-self: center;
+  justify-self: center;
+}
+
+.form-message {
+  margin-top: 0px;
+}
+
+.actual-form {
+  width: 50%;
+  background-color: #454547;
+  color: white;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+  align-self: center;
+  justify-self: center;
+  padding: 5%;
+}
+
+.label {
+  text-align: left;
+  padding-top: 2%;
+}
+
+.input {
+  margin-top: 3%;
+  padding: 2%;
+  resize: vertical;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#message {
+  height: 13vh;
+}
+
+.Contact-Button {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  background: #8fb3e5;
+  border: none;
+  justify-self: center;
+  cursor: pointer;
+  align-self: center;
+  transition: 1s;
+  width: 100%;
+  padding: 2%;
+  margin-top: 8%;
+  border: 2px solid transparent;
+}
+
+.Contact-Button:hover {
+  background: #454547;
+  border: 2px solid #8fb3e5;
+}
+
+.banner {
+  background: url("./Assets/banner-2.jpg") no-repeat center / cover;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.banner a {
+  font-size: 1.7em;
+  background: none;
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  justify-self: center;
+  cursor: pointer;
+  transition: 1s;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  line-height: 2px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.banner a:hover {
+  color: #454547;
+}
+
+@media only screen and (max-width: 462px) {
+  .banner a {
+    font-size: 1.2em;
+  }
+
+  .actual-form {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+}

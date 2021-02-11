@@ -1,0 +1,42 @@
+.Nav {
+  position: fixed;
+  display: flex;
+  width: 24.5%;
+  justify-content: space-around;
+  align-items: center;
+  height: 55px;
+  left: 72.2vw;
+  top: 2%;
+}
+
+.Nav a {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  justify-self: center;
+  cursor: pointer;
+  background: rgba(183, 211, 250, 0.534);
+  transition: 1s;
+  padding: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.Nav a:hover {
+  color: #454547;
+}
+
+@media only screen and (max-width: 770px) {
+  .Nav {
+    top: 0px;
+    left: 37.2%;
+    padding: none;
+    margin: none;
+  }
+  .Nav a {
+    padding: none;
+    margin: none;
+  }
+}
